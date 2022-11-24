@@ -9,14 +9,14 @@ services:
   #   volumes:
   #      - ./api:/usr/src/app/api
   #      - /usr/src/app/api/node_modules
-  react-ui:
+  react-docker:
     build:
       context: ./
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    container_name: react-ui
+    container_name: react-docker
     stdin_open: true
     volumes:
-       - ./:/app
-       - /app/node_modules
+       - ./:/var/www/html/app
+       - /var/www/html/app/node_modules

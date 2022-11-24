@@ -16,6 +16,8 @@ COPY . /var/www/html/app
 
 # RUN chown -R www-data:www-data /var/www/html/app
 
+RUN ls /var/www/html/app/public
+
 WORKDIR /var/www/html/app
 
 RUN npm install
