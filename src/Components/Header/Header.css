@@ -1,0 +1,16 @@
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+    background: #73aff6;
+    color: #ffffff;
+}
+
+.header-nav a{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.header-nav a:hover{
+    color: #ffffff;
+}

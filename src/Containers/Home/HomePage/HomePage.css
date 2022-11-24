@@ -1,0 +1,14 @@
+.home-page{
+    min-height: 100%;
+    position: relative;
+    padding: 50px 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.acticles-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 165px;
+}

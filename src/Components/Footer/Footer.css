@@ -1,0 +1,14 @@
+.page-footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.page-footer a{
+    color: #ffffff;
+}
+
+.page-footer h5{
+    color: black;
+}

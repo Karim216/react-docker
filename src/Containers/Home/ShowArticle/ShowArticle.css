@@ -1,0 +1,8 @@
+.show-article-container{
+    min-height: 352px;
+}
+
+.show-article-container .card-img-top{
+    height: 250px;
+    width: 500px;
+}
